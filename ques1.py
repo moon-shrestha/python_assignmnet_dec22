@@ -6,7 +6,7 @@ num = int(input("Enter a number:"))
 
 loop = {}
 
-for i in range(num):
+for i in range(num+1):
     loop[i] = i * i
 
 print(loop)
